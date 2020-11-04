@@ -1,0 +1,114 @@
+.cellOnClick {
+    width: 50%; 
+    height: 75%;
+}
+a, button {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px 25px 10px;
+}
+button{
+    margin-top: 50px;
+    background-color: rgb(131, 123, 123);
+    margin-right: 63px;
+}
+
+.dropdown {
+    position: absolute;
+    display: block; 
+    margin-left: 36%;
+}
+.dropdown-list {
+    display: none;
+    position: absolute;
+    background: rgb(173, 166, 164) ;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+.dropdown a:hover, drop-button:hover{
+    background-color: black;
+    color: white;
+    width: 80%;
+}
+
+.showDrop { 
+    display: block;
+}
+
+td{
+    border:1px solid;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding: 5;
+}
+
+td:nth-child(3n+3){
+    border-right: 4px solid black;
+}
+
+td:nth-child(3n+1){
+    border-left: 4px solid black;
+}
+
+td:first-child{
+    border-left: 4px solid black;
+}
+
+tr:nth-child(3n+1) td{
+    border-top: 4px solid black;
+}
+
+tr:last-child td{
+    border-bottom: 4px solid black;
+}
+
+h1{
+    color: white;
+    background-color: black;
+    margin-top: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100px;
+    font-style: oblique;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+    border:5px solid;
+}
+
+body {
+    background-color: white;
+    color:black;
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    
+}
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+  border-style: none;
+  outline: none;
+}
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+    border-style: none;
+    outline: none;
+}
